@@ -5,11 +5,8 @@ VERSION = 1.1.2
 BINDIR = bin
 SRCDIR = src
 
-# architecture variables
-ARCH=`uname -m`
-
 # compiler options
-BASE_CFLAGS = -Wall -Wstrict-prototypes -pipe -march=$(ARCH) `gtkmm-config --cflags` -D_REENTRANT
+BASE_CFLAGS = -Wall -pipe `gtkmm-config --cflags` -D_REENTRANT
 CFLAGS = $(BASE_CFLAGS) -Winline -DDEBUG -g -fno-default-inline
 #CFLAGS = $(BASE_CFLAGS) -DNDEBUG -O3 -finline-functions
 LD_FLAGS = `gtkmm-config --libs`
