@@ -1,0 +1,9 @@
+This is a VERY incomplete list.
+
+Shane Lillie
+
+----------
+
+1 Heavy memory usage in long Tree lists (I've heard this is a gtkmm thing)
+
+2 Compiles in Windows but is absolutely 100% non-functional

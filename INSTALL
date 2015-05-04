@@ -1,0 +1,5 @@
+1. From the toplevel directory, type make.
+2. Copy the contents of the bin directory to wherever.
+3. Enjoy.
+
+To uninstall, delete the classview binary and remove the .classview directory from the directory of any users that used classview

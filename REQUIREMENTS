@@ -1,0 +1,8 @@
+gcc 2.95.3
+gmake
+gtkmm 1.2.10
+    gtk+ 1.2.10
+    libsigc++ 1.0.4
+
+
+If there are any other requirements I missed, let me know. :)

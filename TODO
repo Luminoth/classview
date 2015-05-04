@@ -1,0 +1,35 @@
+This is a mini-list of things that need to be done to get classView ready to go. A more complete list can be found by tacking on every FIXME and TODO in the code onto this list.
+
+Shane Lillie
+
+----------
+
+4 Functionize the code more
+
+7 Fix threading of openEditor
+    right now if threading is used, a lot of seg faults occur
+    I'm not sure where it's occuring, however.
+
+9 Cleanup Parser code
+
+11 General code cleanup
+
+13 clean up includes
+
+14 enable/disable close menu option (code is partially there, it just doesn't work)
+
+15 verify tags file in Parser code
+
+16 comment code
+
+17 use autoconf and automake
+
+21 Finish Win32 port
+
+22 Run ctags in other directories?
+
+23 detect resize events to save window size (IMPORTANT!)
+
+24 the whole FileSystem class is a mess, it needs to be more elegant
+
+25 honestly, the entire Parser class needs re-writing... it's just bad...

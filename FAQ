@@ -1,0 +1,22 @@
+Q: I have gcc xx.xx.xx and classview won't compile/aborts with a lot of errors, why?
+
+A: classview makes very extensive use of STL. I only have access to gcc 2.95.3 on my Slackware machine. I don't really care much about making it compiler compatable at this point. When gcc 3.x becomes the defacto standard, I'll migrate and fix up classview to compile under it. I'm excited about the compliantness of 3.x, but it's just too much trouble to use it right now. Though, if you know how to fix things to make it compile, let me know and as long as it can be in a way that doesn't break 2.95 compatability, I'll put it in.
+
+Q: Where can I tell you what I think about classview?
+
+A: Send me a mail at aszwad@softhome.net. I don't make any promises that I'll reply, read, or care about what you have to say, but I'll do my best.
+
+Q: I found a bug/want a feature, what do I do?
+
+A: E-mail me the info or do it yourself and submit me a patch. If I like the idea or think the bug needs fixed, it goes in and you get credit. Consider that an insentive to help out. :)
+
+Q: Why no configure script?
+
+A: Beats me. Feel free to add one and let me know how to maintain it, I'd love to stop tacking things onto my Makefile.
+
+Q: I notice some Win32 code, do you support Win32?
+
+A: No. Well, you can use lcc-win32 or whatever compiler you like to compile classview in Win32, but it doesn't do anything. I've started a bit of "shell" work on porting to Win32, but I don't have the time or want to finish. Feel free to finish the work yourself if you really want it there (or better yet, make a decent port of gtkmm and I'll finish the port).
+
+
+All other questions can be sent to aszwad@softhome.net
